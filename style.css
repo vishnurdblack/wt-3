@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;1,200&family=Quicksand&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+#navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: .5rem 5rem;
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.5);
+    background: black;
+}
+.navbar .navbar-brand{
+    font-size: 25px;
+    font-weight: 800;
+    color: crimson !important;
+}
+#navbarSupportedContent a{
+    color: white;
+    border-bottom: 2px solid transparent;
+    font-weight: 500;
+}
+#navbarSupportedContent a:hover{
+    border-bottom: 1.5px solid crimson;
+}
+#navbarSupportedContent button{
+    border-radius: 20px;
+    color: crimson;
+    font-size: 15px;
+    border-color: crimson;
+    font-weight: 700;
+}
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/**home*/
+#home{
+    background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.4)),url(home.jpeg);
+    background-size: cover;
+    background-position: center;
+flex-direction: column;
+}
+#home h1{
+    font-size: 100px;
+    color:white;
+    letter-spacing: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0px 1px 0px #ccc,
+                 0px 2px 0px #ccc,
+                 0px 3px 0px #ccc,
+                 0px 4px 0px #ccc,
+                 0px 5px 0px #ccc,
+                 0px 6px 0px #ccc;
+}
+#home p{
+    font-weight: bolder;
+    color: aliceblue;
+    font-size: 18px;
+}
+#home .input-group{
+    width: 40%;
+    height: 45px;
+}
+#home .get{
+    background: crimson !important;
+    color: white !important;
+    box-shadow: 2px 4px 5px rgba(0,0,0,.3);
+}
+/*about*/
+#about h1{
+    font-weight: 800;
+    
+}
+#about p{
+    font-weight: bolder;
+}
+/*services*/
+#services{
+    background: #e5e5e5;
+}
+#services h1{
+       font-size: 50px;
+       letter-spacing: 1.5px;
+       font-weight: 700;
+
+}
+#services img{
+    width: 200px;
+    height: 200px;
+}
+#services h5{
+    font-weight: 700;
+}
+#services p{
+    font-weight: 700;
+}
+.card{
+    width: 200px;
+    border: none !important;
+    box-shadow:  15px 20px 20px rgba(0,0,0,.3),
+                 inset 4px 4px 10px white;
+    border-radius: 20px !important;
+    overflow: hidden;
+    align-items: center;
+    margin: 20px 60px ;
+}
+#services .get{
+    background: crimson !important;
+    color: white !important;
+    box-shadow: 2px 4px 5px rgba(0,0,0,.3);
+}
+#services .card:hover{
+    box-shadow:  inset 5px 5px 10px rgba(0,0,0,.3),
+                 inset -4px -4px -10px white;
+}
+/*team*/
+#team h1{
+    font-size: 50px;
+       letter-spacing: 1.5px;
+       font-weight: 700;
+}
+#team h5{
+    font-weight: 700;
+}
+#team p{
+    font-weight: 700;
+}
+#team img{
+  width:250px;
+  height: 300px;
+}
+
+#contact button{
+    background: crimson !important;
+    color: white !important;
+    box-shadow: 2px 4px 5px rgba(0,0,0,.3);
+  }
+#contact img{
+  width:400px;
+  height: 400px;
+}
